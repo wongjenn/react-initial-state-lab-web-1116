@@ -2,8 +2,8 @@ const React = require('react')
 
 class Bomb extends React.Component{
   constructor(props){
-    super(props)
-    this.state = {secondsLeft: this.props.initialCount}
+    super()
+    this.state = {secondsLeft: props.initialCount}
   }
 
   render(){
